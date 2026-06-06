@@ -108,3 +108,190 @@ nav a.apply-now::after {
   right: 0;
   color: #074591;
 }
+.ss{
+  position:relative;
+  top: -680px;
+  left:680px;  
+}
+.hero-text{
+    text-align:center;
+    margin-top:50px;
+    position: relative;
+    top:-1210px;
+}
+
+.london{
+    font-size:90px;
+    font-weight:900;
+    color:#002d72;
+    margin:0;
+    letter-spacing:5px;
+    text-transform:uppercase;
+    font-family:Arial, sans-serif;
+}
+
+.summer{
+    font-size:80px;
+    color:#d60000;
+    margin:0;
+    font-family:'Brush Script MT', cursive;
+    transform:rotate(-2deg);
+}
+
+.tagline{
+    display:inline-block;
+    background:#002d72;
+    color:white;
+    padding:12px 30px;
+    border-radius:30px;
+    font-size:20px;
+    margin-top:10px;
+}
+
+
+.art{
+  background-color: rgb(254, 254, 254);
+  width: 342px;
+  height: 540px;
+  position:relative;
+  left: 100px;
+  top: 300px;
+  border: 2px solid #e5e7eb;
+   box-shadow:0px 10px 10px  rgb(217, 213, 213);
+}
+
+.lojera{
+  background-color: rgb(254, 254, 254);
+  width: 342px;
+  height: 540px;
+  position:relative;
+  left: 540px;
+  top: -240px;
+  border: 2px solid #e5e7eb;
+   box-shadow:0px 10px 10px  rgb(217, 213, 213);
+}
+.tenda{
+    background-color: rgb(254, 254, 254);
+  width: 342px;
+  height: 540px;
+  position:relative;
+  left: 970px;
+  top: -780px;
+  border: 2px solid #e5e7eb;
+   box-shadow:0px 10px 10px  rgb(217, 213, 213);
+}
+.visit{
+   background-color: rgb(254, 254, 254);
+  width: 342px;
+  height: 540px;
+  position:relative;
+  left: 970px;
+  top: -650px;
+  border: 2px solid #e5e7eb;
+   box-shadow:0px 10px 10px  rgb(217, 213, 213);
+}
+.basketboll{
+   background-color: rgb(254, 254, 254);
+  width: 342px;
+  height: 540px;
+  position:relative;
+  left: 540px;
+  top: -1190px;
+  border: 2px solid #e5e7eb;
+   box-shadow:0px 10px 10px  rgb(217, 213, 213);
+}
+.piknik{
+    background-color: rgb(254, 254, 254);
+  width: 342px;
+  height: 540px;
+  position:relative;
+  left: 103px;
+  top: -1730px;
+  border: 2px solid #e5e7eb;
+   box-shadow:0px 10px 10px  rgb(217, 213, 213);
+}
+
+.yoga{
+  background-color: rgb(254, 254, 254);
+  width: 342px;
+  height: 540px;
+  position:relative;
+  left: 7px;
+  top: -1600px;
+  border: 2px solid #e5e7eb;
+   box-shadow:0px 10px 10px  rgb(217, 213, 213);
+}
+
+.karate{
+  background-color: rgb(254, 254, 254);
+  width: 342px;
+  height: 540px;
+  position:relative;
+  left: 355px;
+  top: -2140px;
+  border: 2px solid #e5e7eb;
+   box-shadow:0px 10px 10px  rgb(217, 213, 213);
+}
+
+.climbing{
+  background-color: rgb(254, 254, 254);
+  width: 342px;
+  height: 540px;
+  position:relative;
+  left: 705px;
+  top: -2680px;
+  border: 2px solid #e5e7eb;
+   box-shadow:0px 10px 10px  rgb(217, 213, 213);
+}
+.shigjeta{
+  background-color: rgb(254, 254, 254);
+  width: 342px;
+  height: 540px;
+  position:relative;
+  left: 1050px;
+  top: -3220px;
+  border: 2px solid #e5e7eb;
+   box-shadow:0px 10px 10px  rgb(217, 213, 213);
+}
+.confet{
+ position:relative;
+ top: -5208px;
+ right: 30px;
+
+}
+.camp-footer{
+    background:#002d72;
+    color:white;
+    display:flex;
+    justify-content:space-around;
+    align-items:center;
+    flex-wrap:wrap;
+    padding:40px 20px;
+    margin-top:50px;
+    position: relative;
+    top: -5400px;
+}
+
+.footer-item{
+    display:flex;
+    align-items:center;
+    gap:15px;
+}
+
+.footer-item span{
+    font-size:45px;
+}
+
+.footer-item p{
+    margin:0;
+    font-size:18px;
+    font-weight:700;
+    line-height:1.5;
+}
+
+.footer-slogan h2{
+    font-size:40px;
+    font-style:italic;
+    margin:0;
+    text-align:center;
+}
