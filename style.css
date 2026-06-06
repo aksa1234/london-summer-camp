@@ -11,8 +11,6 @@ body {
   max-width: none;
   overflow: scroll;
 }
-
-/* HEADER */
 header {
   display: flex;
   justify-content: flex-start;
