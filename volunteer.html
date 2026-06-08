@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Become a Volunteer | London School Summer Camp</title>
+    <meta name="description" content="Volunteer application page for young people interested in helping at London School Summer Camp." />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@500;600;700;800;900&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="volunteer.css" />
+  </head>
+
+  <header>
+        
+        <img src="./img/london camp.jpg" alt="" width="auto" height="75px">
+
+    <div class="titulli">
+    <h2>London Summer Camp</h2>
+    </div>
+    <nav>
+      <div id="Home">
+      </div>
+      <div id="About">
+      </div>
+      <div id="Activities">
+      </div>
+      <div id="Schedule">
+      </div>
+      <div id="Gallery"> 
+      </div>
+     
+    
+       <div class="teksti" id="Makaronë">
+
+
+       <a href="home.html" >Home</a>
+      <a href="about.html" >About</a>
+      <a href="activities.html" >Activities</a>
+      <a href="schedule.html">Schedule</a>
+      <a href="gallery.html">Gallery</a>
+      <a href="volunteer.html">Volunteer</a>
+      <a href="apply.html" class="apply-now">Apply Now</a>
+      </div>
+    </nav>
+ 
+     
+    </header>
+  <body data-page="volunteer" class="">
+    <header class="site-header">
+    <nav class="navbar" aria-label="Primary navigation">
+      <a class="brand" href="index.html" aria-label="London School Summer Camp home">
+        <span class="brand-logo"><img class="asset-image" src="public/logo.png" alt="London School logo" /><span class="logo-fallback" aria-hidden="true">LS</span></span>
+        <span class="brand-text"><strong>London School</strong><span data-i18n="brand.camp"></span></span>
+      </a>
+      <button class="menu-toggle" type="button" aria-label="Open navigation" aria-expanded="false"><span></span><span></span><span></span></button>
+      <div class="nav-panel" data-nav-panel>
+        <ul class="nav-links"><li><a href="index.html" data-nav-page="home" data-i18n="nav.home"></a></li><li><a href="about.html" data-nav-page="about" data-i18n="nav.about"></a></li><li><a href="activities.html" data-nav-page="activities" data-i18n="nav.activities"></a></li><li><a href="gallery.html" data-nav-page="gallery" data-i18n="nav.gallery"></a></li><li><a href="staff.html" data-nav-page="staff" data-i18n="nav.staff"></a></li><li><a href="contact.html" data-nav-page="contact" data-i18n="nav.contact"></a></li></ul>
+        <div class="header-controls" aria-label="Display and language controls">
+          <button class="mode-toggle" type="button" data-theme-toggle><span data-i18n="toggle.dark"></span></button>
+          <label class="language-control"><span class="visually-hidden" data-i18n="language.label"></span><select data-language-select><option value="en">EN</option><option value="sq">AL</option><option value="de">DE</option></select></label>
+        </div>
+        <div class="header-actions"><a class="btn btn-volunteer btn-small" href="volunteer.html" data-nav-page="volunteer" data-i18n="nav.volunteer"></a><a class="btn btn-primary btn-small" href="register.html" data-i18n="button.register"></a></div>
+      </div>
+    </nav>
+  </header>
+    <main><section class="page-hero section-shell"><div class="page-hero-copy reveal"><p class="eyebrow" data-i18n="volunteer.eyebrow"></p><h1 data-i18n="volunteer.title"></h1><p data-i18n="volunteer.copy"></p></div><div class="page-hero-card reveal"><strong data-i18n="volunteer.noteTitle"></strong><span data-i18n="volunteer.noteCopy"></span></div></section><section class="registration section-pad"><div class="section-shell registration-layout"><div class="registration-copy reveal"><p class="eyebrow" data-i18n="volunteer.formEyebrow"></p><h2 data-i18n="volunteer.formTitle"></h2><p data-i18n="volunteer.formCopy"></p></div><form class="registration-form reveal" data-endpoint="/api/volunteer" data-form-type="volunteer" method="post" novalidate><div class="form-grid"><label><span data-i18n="form.fullName"></span><input type="text" name="fullName" required /></label><label><span data-i18n="form.age"></span><input type="text" name="age" inputmode="numeric" pattern="[0-9]{1,2}" maxlength="2" required /></label><label><span data-i18n="form.guardianName"></span><input type="text" name="guardianName" required /></label><label><span data-i18n="form.guardianPhone"></span><input type="tel" name="guardianPhone" required /></label><label class="full"><span data-i18n="form.email"></span><input type="text" name="email" inputmode="email" pattern="[^@\s]+@[^@\s]+\.[^@\s]+" required /></label><label class="full"><span data-i18n="form.reason"></span><textarea name="reason" rows="4" required></textarea></label><label class="full"><span data-i18n="form.availability"></span><textarea name="availability" rows="3" required></textarea></label><label class="checkbox-line full"><input type="checkbox" name="permission" required /><span data-i18n="form.permission"></span></label></div><button class="btn btn-primary form-submit" type="submit" data-i18n="button.volunteer"></button><div class="form-status" role="status" aria-live="polite"></div></form></div></section></main>
+    <footer class="site-footer">
+    <div class="footer-inner section-shell">
+      <a class="brand footer-brand" href="index.html" aria-label="Back to homepage"><span class="brand-logo"><img class="asset-image" src="public/logo.png" alt="London School logo" /><span class="logo-fallback" aria-hidden="true">LS</span></span><span class="brand-text"><strong>London School</strong><span data-i18n="brand.camp"></span></span></a>
+      <p data-i18n="footer.rights"></p>
+      <div class="footer-socials" aria-label="Social links"><a href="https://www.instagram.com/londonsummercamp/" target="_blank" rel="noopener">Instagram</a><a href="https://www.facebook.com/" target="_blank" rel="noopener">Facebook</a></div>
+    </div>
+  </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
+
